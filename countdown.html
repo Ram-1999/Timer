@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <link rel="stylesheet" href="./countdown.css">
+    <script src="./countdown.js"></script>
+    <body>
+
+        <div class="inp">
+            <input id="datedata" type="datetime-local">
+            <button onclick="setInterval(start,1000)">Submit</button>
+            <button onclick="stopClock()">Reset</button>
+        </div>
+       
+        <div class="data">
+            <div>
+                <p id="dayp"></p>
+                <p>days</p>
+            </div>
+            <div>
+                <p id="hourp"></p>
+                <p>hours</p>
+            </div>
+            <div>
+                <p id="minp"></p>
+                <p>minutes</p>
+            </div>
+            <div>
+                <p id="secp"></p>
+                <p>seconds</p>
+            </div>
+        </div>
+
+        <h1 id="over"></h1>
+
+    </body>
+</html>

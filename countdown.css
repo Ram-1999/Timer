@@ -1,0 +1,21 @@
+.inp{
+    text-align: center;
+    padding-bottom: 50px;
+}
+body{
+    background-color: burlywood;
+}
+.data{
+    background-color: blue;
+    border-radius: 20px;
+    display: flex;
+}
+
+.data>div{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1{
+    text-align: center;
+}
